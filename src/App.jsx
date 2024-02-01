@@ -1,9 +1,11 @@
-function App() {
+import Saludo from "./Saludo";
 
+function App() {
   return (
-    <>
-    </>
-  )
+    <section>
+      <Saludo />
+    </section>
+  );
 }
 
-export default App
+export default App;
